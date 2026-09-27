@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans';
+    height: 5000px;
+}
+
+/* start header */
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url('../imgs/image_1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+
+.header_box{
+    width: 75%;
+    margin: 0 auto ;
+    padding: 300px 0;
+}
+.header_box p{
+
+    font-size: 45px;
+    font-weight: 300;
+}
+.header_link1{
+    background-color: #1a57a5;
+    border:2px solid #1a57a5;
+    color: white;
+    padding: 15px 25px ;
+    border-radius: 1px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.header_link1:hover{
+    background-color: #103463;
+    border:2px solid #103463;
+}
+.header_link2{
+    
+    color: white;
+    border: 2px solid whitesmoke;
+    padding: 15px 25px ;
+    border-radius: 1px;
+    text-decoration: none;
+}
+.header_link2:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.header_links{
+    margin-top: 55px;
+}
+
+/* end heaader */
+
+/* start services */
+.services{
+    padding: 100px 0;
+}
+.services_box{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between ;
+}
+.service{
+    width: 33%;
+}
+.service_top_icon{
+    font-size: 70px;
+    color: #1a56a5;
+}
+.service>h3{
+    color: #1a57a5;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 28px 0;
+}
+.service p{
+    color: gray;
+    width: 85%;
+    line-height: 1.8;
+    margin-bottom: 25px;
+
+}
+.service a{
+    color: #1a57a5;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+.service a i{
+    margin-left: 5px;
+    font-size: 13px;
+}
+.service a:hover i{
+    margin-left: 15px;
+    font-size: 13px;
+}
+/* end services */
+
+/* start features*/
+.features{
+    background-color: #D6E6F2;
+    padding: 100px 0;
+}
+.features_box{
+    width: 75%;
+    margin:  0 auto;
+
+}
+.sec_top{
+    background-color: green;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    align-items: center;
+}
+.sec_top_title{
+    font-size: 38px;
+    font-weight: bold;
+    display: block;
+}
+.sec_top_line{
+    width: 70px;
+    height: 3px;
+    display: block;
+    background-color: #1a57a5;
+    margin: 30px 0;
+}
+.sec_top p{
+    color: gray;
+    width: 60%;
+}
+/* end features*/
