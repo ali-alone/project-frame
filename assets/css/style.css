@@ -124,6 +124,7 @@ body{
     font-size: 38px;
     font-weight: bold;
     display: block;
+    max-width: 51%;
 }
 .sec_top_line{
     width: 70px;
@@ -181,3 +182,77 @@ body{
     width: 50%;
 }
 /* end features*/
+
+/* start plans  */
+.plans{
+    padding: 100px 0;
+}
+.plans_box{
+    width: 75%;
+    margin: 0 auto;
+} 
+.plan_items{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.plan_item{
+
+    width: 28%;
+    padding: 35px 20px;
+    border: 1px solid rgba(210, 209, 209, 0.684);
+}
+.plan_item_title{
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500;
+    display: block;
+}
+.plan_item_price{
+    color: #1a57a5;
+    font-size: 52px;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    margin: 30px 0;
+}
+.plan_item_text{
+    color: gray;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.plan_item_info{
+    padding: 7px 0;
+    color: #73767c;
+    width: 80%
+}
+.plan_item_info i{
+    color: #103463;
+    font-size: 18px;
+    padding-right: 7px;
+}
+.plan_item a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 12px 45px;
+    margin: 38px 0;
+    display: inline-block;
+}
+.plan_item_link_box{
+    display: flex;
+    justify-content: center;
+}
+.plan_item a:hover{
+    background-color: rgb(48, 47, 47);
+}
+.plan_item.active{
+    box-shadow: 0 20px 45px -10px rgba(0,0,0,0.15);
+}
+.plan_item.active a{
+    background-color: #2e6daa;
+}
+.plan_item.active a:hover{
+    background-color: #163553;
+}
+/* end plans  */
