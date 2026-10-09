@@ -137,6 +137,16 @@ body{
     color: gray;
     width: 60%;
 }
+.sec_top_link_blue{
+    background-color: #1a57a5;
+    color: white;
+    padding: 12px 35px;
+    text-decoration: none;  
+    margin-top: 30px;
+}
+.sec_top_link_blue:hover{
+    background-color: #103463;
+}
 .feature_item{
     display: flex;
    padding: 40px 0;
@@ -306,3 +316,50 @@ body{
     color: gray;
 }
 /* end comment */
+
+/* start today */
+.today{
+
+    padding: 100px 0;
+}
+.today_box{
+    width: 75%;
+    margin: 0 auto;
+}
+.today_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+}
+.today_img img{
+    width: 85%;
+}
+.today_items{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.today_item{
+
+    width: 48%;
+    padding: 20px 0;
+    margin: 15x 0;
+
+}
+.today_item_title i{
+    color: #003c8a;
+    font-size: 20px;
+    padding-right: 15px;
+}
+.today_item_title span{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.today_item_text{
+    color: gray;
+    margin-top: 20px;
+}
+/* end today */
